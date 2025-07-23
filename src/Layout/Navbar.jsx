@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Container } from '../components/comon/Container'
 import { Logo } from '../components/comon/Logo'
 import { Button } from '../components/comon/Button'
@@ -7,6 +7,10 @@ import { Navitem } from '../components/comon/Navitem'
 const Navbar = () => {
     const [isMenu,setInsmenuopen] = useState(false);
     const toggleMenu = ()=> setInsmenuopen((prev)=>!prev)
+    useEffect(()=>{
+        const bodyClass = document.body.classList;
+        isMenu?bodyClass.add('no-scroll'):bodyClass.remove('no-scroll')
+    })
   return (
     <nav className='py-5'>
         <Container >
