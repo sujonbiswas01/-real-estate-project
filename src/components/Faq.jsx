@@ -21,7 +21,7 @@ const Faq = () => {
                                     <div key={faq.id} onClick={()=>handleChang(i)} className='flex justify-between items-center'>
                                         <h1>{faq.q}
                                         </h1>
-                                        <div className={` text-4xl text-primary ${i===2?'-rotate-90':active===i?'rotate-90':'-rotate-90'}`}>
+                                        <div className={` text-4xl text-primary ${active===i?'rotate-90':'-rotate-90'}`}>
                                             
                                             <HiChevronRight />
                                         </div>

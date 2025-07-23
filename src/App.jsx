@@ -7,6 +7,7 @@ import Problemcontainer from './home/Problemcontainer'
 import Review from './home/Review'
 import PPartners from './components/comon/PPartners'
 import Faq from './components/Faq'
+import Note from './components/Note'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Review />
         <PPartners />
         <Faq />
+        <Note/>
         <Footer />
 
 

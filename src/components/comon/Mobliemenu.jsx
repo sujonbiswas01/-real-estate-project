@@ -4,7 +4,7 @@ import { IoClose } from "react-icons/io5";
 import { navitems } from '../../assets/sourse/data';
 const Mobliemenu = ({toggleMenu}) => {
     return (
-        <div className='lg:hidden absolute top-0 left-0 w-full h-screen bg-white z-50 p-6 overflow-y-hidden '>
+        <div className='lg:hidden absolute top-0 left-0 w-full h-screen bg-white z-50 p-6 overflow-y-hidden'>
             <div className='flex justify-between items-center '>
                 <Logo />
                 <button onClick={toggleMenu} className='text-black text-2xl self-end' aria-label='Close Menu'><IoClose />

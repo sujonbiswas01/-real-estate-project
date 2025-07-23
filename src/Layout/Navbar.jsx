@@ -14,8 +14,8 @@ const Navbar = () => {
                 <Logo/>
                 <Navitem/>
               
-                <div className='flex items-center justify-center gap-2'>
-                    <button className='md:hidden block' onClick={toggleMenu}>
+                <div className='flex items-center justify-center gap-2 '>
+                    <button className='md:hidden block px-10' onClick={toggleMenu}>
                           <div className='space-y-1 '>
                               <span className='block w-6 h-0.5 bg-black'></span>
                               <span className='block w-6 h-0.5 bg-black'></span>
