@@ -69,3 +69,43 @@ export const review = [
 ]
 
 export const start = ['/star.svg']
+
+// partners section
+export const partners = [
+    {
+        img:'/partners-1.png'
+    },
+    {
+        img:'/partners-2.png'
+    },
+    {
+        img:'/partners-3.png'
+    },
+    {
+        img:'/partners-4.png'
+    },
+    {
+        img:'/partners-5.png'
+    },
+    {
+        img:'/partners-6.png'
+    },
+]
+// faq section 
+export const faq = [
+    {
+        id:1,
+        q:"Is my data secure?",
+        a:'We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. '
+    },
+    {
+        id:2,
+        q:"What types of documents can Ai GoverningDocs generate?",
+        a:'We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. '
+    },
+    {
+        id:3,
+        q:"Can I customize the documents?",
+        a:'We cover a wide range of documents, including contracts, NDAs, compliance reports, and more. '
+    }
+]
