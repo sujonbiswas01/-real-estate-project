@@ -1,20 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import {Button} from './components/comon/Button'
-import { SectionTitle } from './components/comon/SectionTitle'
-import Grradient from './components/comon/Grradient'
 import Navbar from './Layout/Navbar'
 import Footer from './Layout/Footer'
-import Mobliemenu from './components/comon/Mobliemenu'
+import Hero from './components/Hero'
 
 
 function App() {
   return (
     <>
-      <main>
+      <main className='font-primary bg-[url(hero-bg.svg)] min-h-svh bg-no-repeat bg-top w-full'>
         <Navbar />
+        <Hero/>
         <Footer />
 
       </main>
