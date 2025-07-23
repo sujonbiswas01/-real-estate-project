@@ -49,3 +49,23 @@ export const problem = [
     {img:"/key-features.svg",titile:'Key Features',des1:"Automatically generate legal documents tailored to your specific needs."},
     {img:"/compliance-management.svg",titile:'Compliance Management',des1:"Ensure all your documents meet the latest regulatory standards."}
 ]
+
+export const review = [
+    {
+        img:'/david.png',
+        titile:"David",
+        des1:"Happy Client"
+    },
+    {
+        img:'/john-smith.png',
+        titile:"John Smith",
+        des1:"Happy Client"
+    },
+    {
+        img:'/ronald-richards.png',
+        titile:"Ronald Richards",
+        des1:"Happy Client"
+    },
+]
+
+export const start = ['/star.svg']

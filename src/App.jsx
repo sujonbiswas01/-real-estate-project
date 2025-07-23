@@ -4,6 +4,7 @@ import Navbar from './Layout/Navbar'
 import Footer from './Layout/Footer'
 import Hero from './components/Hero'
 import Problemcontainer from './home/Problemcontainer'
+import Review from './home/Review'
 
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
         <Navbar />
         <Hero/>
         <Problemcontainer/>
+           <Review/>
         <Footer />
+     
 
       </main>
 

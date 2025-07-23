@@ -10,7 +10,7 @@ const Problemcontainer = () => {
     <section className='pt-32'>
       <Container>
         <ProblemSolutionHeader />
-        <div className='pt-10 grid grid-cols-4 place-items-center'>
+        <div className='pt-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 place-items-center'>
           {problem.map((problem,index)=>(
             <ProblemsolutionCard {...problem} key={index}/>
           ))}
